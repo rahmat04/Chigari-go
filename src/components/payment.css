@@ -1,0 +1,154 @@
+/* Payment Page Styles */
+.payment-page {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.spacer {
+  height: 50px; /* Space at the top for consistency */
+}
+
+/* Header styles */
+.header-container {
+  background: linear-gradient(to right, #00b4d8, #0077b6);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 500px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.header-container h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Payment container */
+.payment-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-container h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Payment options */
+.payment-options .payment-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  background: linear-gradient(to right, #00b4d8, #0077b6);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.payment-btn:hover {
+  background-color: #005f8b;
+}
+
+/* QR code button */
+.qr-code-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #ff8c00;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.qr-code-btn:hover {
+  background-color: #ff7f00;
+}
+
+/* QR code section */
+.qr-code-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code-section .section-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.qr-code-section canvas {
+  margin: 10px 0;
+}
+
+/* Redirect button */
+.redirect-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.redirect-btn:hover {
+  background-color: #218838;
+}
+
+/* Success message */
+.success-message {
+  color: green;
+  font-size: 18px;
+  margin: 20px 0;
+  display: none;
+}
+
+/* Footer */
+.footer {
+  font-size: 14px;
+  color: #f8f3f3;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Additional styles */
+.or-text {
+  font-size: 18px;
+  color: #555;
+  margin: 20px 0;
+}
+
+.qrcode {
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+}
+.qr-code-section {
+  text-align: center;
+  margin: 20px 0;
+}

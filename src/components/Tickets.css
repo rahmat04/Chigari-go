@@ -1,0 +1,39 @@
+body {
+    background-color: #ada4d1;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .ticket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ticket {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .ticket p {
+    margin: 10px 0;
+  }
+  
+  .qr-code {
+    margin-top: 20px;
+  }
+  

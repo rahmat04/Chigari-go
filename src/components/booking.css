@@ -1,0 +1,70 @@
+.booking-page-body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ada4d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.booking-container {
+  background-color: #e5e2ec;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  max-width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+select, .calculate-btn, .book-btn {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.calculate-btn, .book-btn {
+  background: linear-gradient(to right, #00b4d8, #0077b6);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+}
+
+.calculate-btn:hover, .book-btn:hover {
+  background-color: #45a049;
+}
+
+.price-container {
+  margin-top: 20px;
+}
+
+.footer {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}

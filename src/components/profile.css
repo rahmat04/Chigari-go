@@ -1,0 +1,106 @@
+/* General Profile Page Styles */
+.profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f0f4f8, #e2e8f0);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .profile-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .profile-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-field label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .profile-field span {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .profile-input {
+    font-size: 1rem;
+    padding: 8px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .profile-input:focus {
+    border-color: #0077b6;
+  }
+  
+  .edit-button,
+  .save-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 20px;
+  }
+  
+  .edit-button:hover,
+  .save-button:hover {
+    background-color: #005fa3;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .profile-container {
+      padding: 15px;
+    }
+  
+    .profile-title {
+      font-size: 1.5rem;
+    }
+  
+    .profile-info {
+      gap: 15px;
+    }
+  
+    .profile-input {
+      width: 100%;
+    }
+  }
+  

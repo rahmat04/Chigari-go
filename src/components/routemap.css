@@ -1,0 +1,40 @@
+/* General Layout */
+.route-map-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #233d87, #2397c3);
+  }
+  
+  /* Content Container */
+  .route-map-content {
+    text-align: center;
+  }
+  
+  /* Heading */
+  .route-map-heading {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 2rem;
+  }
+  
+  /* Route Map Image Container */
+  .route-map-image-container {
+    width: 600px;
+    height: 600px; /* Ensures it's square */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Image Styling */
+  .route-map-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

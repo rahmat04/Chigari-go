@@ -1,0 +1,276 @@
+body {
+  background-color: #f2f4f7;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+/* Top Navigation Bar */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #233d87;
+  color: #ffffff;
+}
+
+.top-nav .btn-container {
+  display: flex;
+  gap: 15px;
+}
+
+.top-nav .btn {
+  background-color: #2397c3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.top-nav .btn:hover {
+  background-color: #ffffff;
+  color: #2397c3;
+}
+
+/* Main Content Styling */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* What's New (Left Side) */
+.notice-board {
+  background-color: #233d87;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 25%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.notice-board h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2397c3;
+  padding-bottom: 5px;
+}
+
+.notice-board ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notice-board ul li {
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.notice-board ul li span {
+  color: #4caf50;
+  margin-right: 5px;
+}
+
+/* Main Section (Center) */
+.main-section {
+  width: 50%;
+}
+
+.main-section h2 {
+  font-size: 2em;
+  color: #233d87;
+  margin-bottom: 15px;
+}
+
+.main-section p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+/* Offer Card (Right Side) */
+.offer-card {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.offer-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.offer-card h3 {
+  font-size: 1.5em;
+  color: #233d87;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 25px;
+  color: #233d87;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .notice-board, .main-section, .offer-card {
+    width: 100%;
+  }
+}
+/* Decorative Button Styling */
+  .top-nav .btn {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient Background */
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out; /* Smooth animation */
+    box-shadow: 0 5px 15px rgba(255, 126, 95, 0.4); /* Shadow effect */
+  }
+
+  .top-nav .btn:hover {
+    background: linear-gradient(135deg, #feb47b, #ff7e5f); /* Reverse Gradient on Hover */
+    color: #233d87; /* Text color changes on hover */
+    transform: scale(1.1); /* Slight zoom-in effect */
+    box-shadow: 0 8px 20px rgba(255, 126, 95, 0.6); /* Enhance shadow on hover */
+  }
+
+  .top-nav .btn:active {
+    transform: scale(1); /* Remove zoom effect on click */
+    box-shadow: 0 4px 10px rgba(255, 126, 95, 0.4); /* Dim shadow on click */
+  }
+  /* Button Styling with Icons */
+.top-nav .btn {
+display: inline-flex;
+align-items: center;
+gap: 8px; /* Space between icon and text */
+background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient Background */
+color: #fff;
+padding: 10px 25px;
+border: none;
+border-radius: 25px;
+font-size: 1.1em;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+transition: all 0.4s ease-in-out;
+box-shadow: 0 5px 15px rgba(255, 126, 95, 0.4);
+}
+
+.top-nav .btn:hover {
+background: linear-gradient(135deg, #feb47b, #ff7e5f);
+color: #233d87;
+transform: scale(1.1);
+box-shadow: 0 8px 20px rgba(255, 126, 95, 0.6);
+}
+
+.top-nav .btn:active {
+transform: scale(1);
+box-shadow: 0 4px 10px rgba(255, 126, 95, 0.4);
+}
+
+/* Icon Styling */
+.top-nav .btn .icon {
+font-size: 1.3em; /* Adjust icon size */
+display: inline-block;
+vertical-align: middle;
+transition: transform 0.3s ease;
+}
+
+.top-nav .btn:hover .icon {
+transform: rotate(20deg); /* Rotate the icon slightly on hover for a fun effect */
+}
+/* Button Styling with Images */
+.top-nav .btn {
+display: inline-flex;
+align-items: center;
+gap: 10px; /* Space between image and text */
+background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient Background */
+color: #fff;
+padding: 10px 25px;
+border: none;
+border-radius: 25px;
+font-size: 1.1em;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+transition: all 0.4s ease-in-out;
+box-shadow: 0 5px 15px rgba(255, 126, 95, 0.4);
+}
+
+.top-nav .btn:hover {
+background: linear-gradient(135deg, #feb47b, #ff7e5f);
+color: #233d87;
+transform: scale(1.1);
+box-shadow: 0 8px 20px rgba(255, 126, 95, 0.6);
+}
+
+.top-nav .btn:active {
+transform: scale(1);
+box-shadow: 0 4px 10px rgba(255, 126, 95, 0.4);
+}
+
+/* Button Styling */
+.btn-container .btn {
+display: inline-flex;
+align-items: center;
+gap: 8px; /* Space between icon and text */
+background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+color: #ffffff;
+padding: 12px 20px;
+border: none;
+border-radius: 25px;
+font-size: 1.1em;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+transition: all 0.3s ease-in-out;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-container .btn:hover {
+background: linear-gradient(135deg, #feb47b, #ff7e5f); /* Invert gradient */
+transform: translateY(-2px); /* Slight lift */
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-container .btn:active {
+transform: translateY(1px); /* Button press effect */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Styling */
+.btn-container .btn .icon {
+width: 20px; /* Adjust icon size */
+height: 20px;
+object-fit: contain; /* Ensures icon fits cleanly */
+}
+
+/* Text Styling */
+.btn-container .btn span {
+line-height: 1; /* Aligns text with icon */
+white-space: nowrap; /* Prevents text wrapping */
+}

@@ -1,0 +1,98 @@
+/* General Page Layout */
+.about-container {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-color: #ada4d1;
+    min-height: 100vh;
+  }
+  
+  /* Notification Slide-In Animation */
+  .notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0077b6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    z-index: 9999;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .notification-content {
+    color: #ffffff;
+  }
+  
+  .notification.slide-in {
+    transform: translateY(0);
+  }
+  
+  .notification.slide-out {
+    transform: translateY(-100%);
+  }
+  
+  /* Main Content */
+  .about-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(to bottom right, #ffffff, #e0f7fa);  /* Light blue gradient */
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);  /* Larger shadow for depth */
+    text-align: center;  /* Centering text for better layout */
+  }
+  
+  .about-heading {
+    color: #333;
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-subheading {
+    color: #444;
+    font-size: 2.2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .about-description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px; /* Adding some margin below paragraphs */
+  }
+  
+  .about-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+  }
+  
+  .about-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    .about-heading {
+      font-size: 2.2rem;
+    }
+  
+    .about-subheading {
+      font-size: 1.8rem;
+    }
+  
+    .about-description, .about-list li {
+      font-size: 16px;
+    }
+  }
+  
